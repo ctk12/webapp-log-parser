@@ -1,2 +1,2 @@
-# Web App books library
+# Web App log parser
 
