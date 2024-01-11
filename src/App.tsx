@@ -11,8 +11,6 @@ function App() {
   useEffect(() => {
     if (location.pathname === "/") {
       navigate("/home");
-    } else {
-      navigate(location.pathname);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
