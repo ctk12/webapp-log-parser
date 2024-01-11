@@ -38,7 +38,7 @@ const LogParser = () => {
 
     setParseLoading(true);
     try {
-      const response = await axios.post("http://localhost:3000/api/log-parser", formData, {
+      const response = await axios.post("https://log-node.tplinks.online/api/log-parser", formData, {
         onUploadProgress: (progressEvent: AxiosProgressEvent) => {
           const progress1 = progressEvent?.total ? Math.round((progressEvent.loaded / progressEvent?.total) * 100) : 0;
           setProgress(progress1);
