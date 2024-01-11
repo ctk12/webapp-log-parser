@@ -13,10 +13,7 @@ export const AppContextProvider = ({
     const [sideBarData, setSideBarData] = React.useState<boolean>(false);
 
     useEffect(() => {
-        const timer = setTimeout(() => {
-            setLoading(false);
-            clearTimeout(timer);
-        }, 1000);
+        setLoading(false);
     }, []);
 
     return (
