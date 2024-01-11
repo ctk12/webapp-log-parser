@@ -86,7 +86,7 @@ const LogParser = () => {
           <label
             htmlFor="formFileLg"
             className="mb-2 inline-block text-neutral-700 dark:text-neutral-200"
-            >Large file input example
+            >Add file here
           </label>
           <input
             onChange={handleFileChange}
