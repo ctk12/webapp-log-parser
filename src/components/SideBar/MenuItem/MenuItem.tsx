@@ -26,7 +26,7 @@ export const MenuItem: React.FC<Props> = ({ icon, isActive, path }) => {
       
     return (
         <li className="relative menu-li" onClick={onChangeSideBar}>
-            <div style={{ left: 50, zIndex: 1, width: "max-content" }} className="hidden-child absolute h-8 px-3 items-center justify-center rounded-md bg-white">{navName === "" ? "Home" : navName}</div>
+            <div style={{ left: 50, zIndex: 1, width: "max-content" }} className="hidden-child absolute h-8 px-3 items-center justify-center rounded-md bg-white">{navName}</div>
             <Link to={path} className="flex justify-center items-center gap-1">
                 {isActive &&  <img src={DotSvg} alt="dot" width={4} height={4} className="absolute -left-2" />}
                 <img src={icon} alt="menu" width={24} height={24} />

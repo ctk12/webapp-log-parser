@@ -4,7 +4,7 @@ import HomeSvg from "@/assets/home.svg";
 import HomeActiveSvg from "@/assets/home-active.svg";
 
 const HomeRoutes: nestedRoutesType = {
-  path: "/",
+  path: "/home",
   component: <Home />,
   navIcon: { icon: HomeSvg, activeIcon: HomeActiveSvg },
   routes: [],
